@@ -1,0 +1,79 @@
+---
+import Icon from './Icon.astro';
+---
+
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Développeur Web et Mobile </h2>
+		<p>
+
+		Le développement d’applications web et mobiles occupe aujourd’hui une place essentielle dans le monde numérique.
+Le rôle du développeur est d’accompagner chaque étape du projet — de la simple idée esquissée sur un croquis à la mise en production et la livraison finale au client.</p><p>
+Cela implique de transformer une vision en un produit fonctionnel, ergonomique et performant, en alliant créativité, rigueur technique et sens du détail.
+		</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Travailler ensemble pour des solutions performantes</h2>
+		<p>La collaboration est un élément essentiel pour concevoir et livrer des applications web ou mobiles de qualité, conformes au cahier des charges du client et respectueuses des normes de sécurité en vigueur.
+Tout au long du processus de développement, des ajustements, améliorations ou évolutions peuvent être nécessaires afin de garantir une solution pleinement opérationnelle et adaptée aux besoins réels.</p>
+		
+		<p>Je vous accompagne de A à Z — de la conception à la mise en ligne — dans la création, l’optimisation et le déploiement de vos projets web.</p>
+		
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Compétences professionnelle </h2>
+		<h5>Frontend</h5>
+		<p>Javascript,TypeScript,Angular,Express/node</p>
+		<h5>Backend</h5>
+		<p>PHP,Symfony,Laravel,API REST</p>
+		<p>MySql,PostgreSQL,MongoDB</p>
+
+		<h5>Déploiement</h5>
+	     <p>Automatisation des taches et gestion des workflows avec Docker et GitHub Actions</p>	
+		<p>Déploiement d'applications sur platformes Software as a Service (Heroku, PlaformSH,Fly.io, OVH)</p>
+
+	</div>
+
+<style>
+	.box {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+</style>

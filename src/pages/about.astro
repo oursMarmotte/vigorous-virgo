@@ -1,0 +1,119 @@
+---
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About | Jean Gérald" description="About Jean gérald">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Mon parcours et mes compétences"
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/ecranDev.jpg"
+					alt="Jeanine White at work with a colleague"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						Après une reconversion professionnelle, j’ai débuté en tant qu’assistant informatique au sein d’une association.
+						 Au fil des années, j’ai eu l’opportunité d’évoluer vers des postes variés tels qu’administrateur réseau, 
+						 gestionnaire de parc informatique et référent des systèmes d’information. 
+					</p>
+					<p>
+					Déjà titulaire d’un diplôme de Webmaster et passionné depuis toujours par le développement d’applications, 
+					j’ai choisi de compléter mon parcours en obtenant un diplôme de Développeur d’applications Web et Mobile. 
+					Cette formation m’a permis d’allier mes compétences techniques à ma créativité, et de me lancer aujourd’hui
+					 en tant que développeur freelance.
+					</p>
+					
+					
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Diplomes</h2>
+				<div class="content">
+					<p>Formation certifiante Administrateur systemes et réseaux</p>
+					<p>Diplome Webmaster (CNAM),conception de sites et administration de serveurs</p>
+					<p>Certificat professionnelle Développeur d'applications Web et Mobile/Symfony (STUDI)</p>
+					
+
+
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Soft skills</h2>
+				<div class="content">
+					<p>Autonome,Passioné,Créatif,Polyvalent,Dynamique,Curieux ,Communicatif</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
