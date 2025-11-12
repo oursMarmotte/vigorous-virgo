@@ -4,6 +4,6 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
     site:'https://github.com/oursMarmotte.github.io',
-    base:'vigorous-virgo',
+    base:'/vigorous-virgo',
     trailingSlash:'always'
 });
