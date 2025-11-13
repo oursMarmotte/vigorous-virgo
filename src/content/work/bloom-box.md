@@ -43,6 +43,6 @@ Ce projet démontre ma capacité à concevoir une architecture claire, à docume
 					alt="Jean gerald centaure"
 					width="480"
 					height="620"
-					src="/assets/hotel2.jpg"
+					src="/vigorous-virgo/assets/hotel2.jpg"
 				/>
 
