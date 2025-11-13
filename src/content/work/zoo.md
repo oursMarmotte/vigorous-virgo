@@ -1,7 +1,7 @@
 ---
 title: Zoo Arcadia
 publishDate: 2019-10-02 00:00:00
-img: /assets/zoo.jpg
+img: /vigorous-virgo/assets/zoo.jpg
 img_alt: Retaurant Asiatique.
 description: |
  Site réalisé dansle cadre de la vaidation de mon diplome de Développeur Web et Mobile 

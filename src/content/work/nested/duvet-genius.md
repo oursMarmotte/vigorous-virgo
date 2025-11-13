@@ -1,7 +1,7 @@
 ---
 title: Ecommerce jetrouvetout.com
 publishDate: 2020-03-04 00:00:00
-img: /assets/ecommerce.jpg
+img: /vigorous-virgo/assets/ecommerce.jpg
 img_alt: Ecommerce
 description: |
   Application E-Commerce – Développée avec Symfony.
@@ -26,7 +26,7 @@ J’y ai également implémenté une interface d’administration permettant la 
 					alt="Jean gerald centaure"
 					width="480"
 					height="620"
-					src="/assets/ecommerce2.jpg"
+					src="/vigorous-virgo/assets/ecommerce2.jpg"
 				/>
 
 

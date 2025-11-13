@@ -1,7 +1,7 @@
 ---
 title: Cabinet médical
 publishDate: 2019-12-01 00:00:00
-img: /assets/medicare.jpg
+img: /vigorous-virgo/assets/medicare.jpg
 img_alt: Application de gestion de patients pour cabinet médical
 description: |
  Application de gestion de patients pour cabinet médical
@@ -22,7 +22,7 @@ Cet application assure la gestion complète des prises de rendez-vous par servic
 					alt="Jean gerald centaure"
 					width="480"
 					height="620"
-					src="/assets/medicare2.jpg"
+					src="/vigorous-virgo/assets/medicare2.jpg"
 				/>
 
 ----

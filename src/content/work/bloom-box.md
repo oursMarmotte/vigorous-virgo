@@ -1,7 +1,7 @@
 ---
 title: Hotel
 publishDate: 2019-12-01 00:00:00
-img: /assets/hotel.jpg
+img: /vigorous-virgo/assets/hotel.jpg
 img_alt: Site Hotelier avec application de gestion des réservations 
 description: |
   Site Hotelier avec application de gestion des réservations 
@@ -22,7 +22,7 @@ Le back-end a été développé en PHP apartir du Framework symfony 7. L’API e
 					alt="Jean gerald centaure"
 					width="480"
 					height="620"
-					src="/assets/api.jpg"
+					src="/vigorous-virgo/assets/api.jpg"
 				/>
 
 ----

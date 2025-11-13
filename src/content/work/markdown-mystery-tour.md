@@ -1,7 +1,7 @@
 ---
 title: Garage Automobile
 publishDate: 2020-03-02 00:00:00
-img: /assets/garageAuto.jpg
+img: /vigorous-virgo/assets/garageAuto.jpg
 img_alt: Réparation auto et vente de voitures d'occasions
 description: |
   Site de vente de voitures d'occasions / Réparation et entretien auto
@@ -32,7 +32,7 @@ la derniere page du site affiche des voitures d'occasions de toutes marques ,l'u
 					alt="Jean gerald centaure"
 					width="480"
 					height="620"
-					src="/assets/garageAuto4.jpg"
+					src="/vigorous-virgo/assets/garageAuto4.jpg"
 				/>
 
 
@@ -44,5 +44,5 @@ Le projet met également en avant mes compétences en intégration front-end (HT
 					alt="Jean gerald centaure"
 					width="480"
 					height="620"
-					src="/assets/garageAuto2.jpg"
+					src="/vigorous-virgo/assets/garageAuto2.jpg"
 				/>
