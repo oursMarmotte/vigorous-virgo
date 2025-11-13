@@ -1,8 +1,8 @@
 ---
-title: Ecommerce jetrouvetout.com
+title:  Jetrouvetout.com
 publishDate: 2020-03-04 00:00:00
 img: /vigorous-virgo/assets/ecommerce.jpg
-img_alt: Ecommerce
+img_alt: E-commerce
 description: |
   Application E-Commerce – Développée avec Symfony.
 tags:
